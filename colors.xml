@@ -1,0 +1,26 @@
+<theme>
+   <colorScheme name="purple">
+      <variables>
+         <tableImageColor>purple</tableImageColor>
+         <textlistSelectorColor>ff00f4aa</textlistSelectorColor>
+         <helpsystemIconColor>ffffff88</helpsystemIconColor>
+         <helpsystemTextColor>ffffffaa</helpsystemTextColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="walnut">
+      <variables>
+         <tableImageColor>walnut</tableImageColor>
+         <textlistSelectorColor>abff32</textlistSelectorColor>
+         <helpsystemIconColor>ffffff88</helpsystemIconColor>
+         <helpsystemTextColor>ffffffaa</helpsystemTextColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="cutting-mat">
+      <variables>
+         <tableImageColor>cutting-mat</tableImageColor>
+         <textlistSelectorColor>d4ff32</textlistSelectorColor>
+         <helpsystemIconColor>ffffff88</helpsystemIconColor>
+         <helpsystemTextColor>ffffffaa</helpsystemTextColor>
+      </variables>
+   </colorScheme>
+</theme>

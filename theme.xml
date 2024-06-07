@@ -1,0 +1,190 @@
+<!--
+theme name:    Notebook
+designed by:   Zoidburg
+built by:      Anthony Caccese
+license:       creative commons CC-BY-NC-SA
+https://github.com/anthonycaccese/scrap-book-es-de
+-->
+<theme>
+
+   <!--
+   ///
+   Variables
+   ///
+   -->
+   <variables>
+      <spacerImage>./_inc/images/space.png</spacerImage>
+      <textlistFontPath>./_inc/fonts/ink-free.ttf</textlistFontPath>
+      <helpsystemFontPath>./_inc/fonts/ink-free.ttf</helpsystemFontPath>
+   </variables>
+   <include>./colors.xml</include>
+
+   <!--
+   ///
+   Gamelist
+   ///
+   -->
+   <view name="gamelist">
+      <helpsystem name="help">
+         <origin>0 0.5</origin>
+         <originDimmed>0.5 0.5</originDimmed>
+         <posDimmed>0.5 0.93</posDimmed>
+         <fontPath>${helpsystemFontPath}</fontPath>
+         <fontSize>${helpsystemFontSize}</fontSize>
+         <letterCase>capitalize</letterCase>
+         <iconColor>${helpsystemIconColor}</iconColor>
+         <textColor>${helpsystemTextColor}</textColor>
+      </helpsystem>
+      <image name="table">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>0</zIndex>
+      </image>
+      <image name="book">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>1</zIndex>
+      </image>
+      <image name="polaroid-background">
+         <origin>0.5 0.5</origin>
+         <tile>true</tile>
+         <path>${spacerImage}</path>
+         <color>111111</color>
+         <zIndex>1</zIndex>
+      </image>
+      <textlist name="list">
+         <origin>0 0</origin>
+         <fontPath>${textlistFontPath}</fontPath>
+         <fontSize>${textlistFontSize}</fontSize>
+         <lineSpacing>${textlistLineSpacing}</lineSpacing>
+         <textHorizontalScrolling>false</textHorizontalScrolling>
+         <selectorColor>${textlistSelectorColor}</selectorColor>
+         <selectedColor>000000</selectedColor>
+         <primaryColor>777777</primaryColor>
+         <secondaryColor>777777</secondaryColor>
+         <selectorImagePath>./_inc/images/textlist-selector.png</selectorImagePath>
+         <zIndex>2</zIndex>
+      </textlist>
+      <video name="polaroid-art">
+         <origin>0.5 0.5</origin>
+         <delay>3</delay>
+         <iterationCount>1</iterationCount>
+         <onIterationsDone>image</onIterationsDone>
+         <zIndex>2</zIndex>
+      </video>
+      <image name="polaroid">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>3</zIndex>
+      </image>
+      <image name="pen">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>6</zIndex>
+      </image>
+   </view>
+   <fontSize name="small">
+      <variables>
+         <textlistFontSize>0.041666666666667</textlistFontSize><!-- 20 -->
+         <textlistLineSpacing>1.62</textlistLineSpacing>
+         <helpsystemFontSize>0.0375</helpsystemFontSize><!-- 18 -->
+      </variables>
+   </fontSize>
+   <fontSize name="medium">
+      <variables>
+         <textlistFontSize>0.05</textlistFontSize><!-- 24 -->
+         <textlistLineSpacing>1.525</textlistLineSpacing>
+         <helpsystemFontSize>0.0375</helpsystemFontSize><!-- 18 -->
+      </variables>
+   </fontSize>
+   <fontSize name="large">
+      <variables>
+         <textlistFontSize>0.058333333333333</textlistFontSize><!-- 28 -->
+         <textlistLineSpacing>1.47</textlistLineSpacing>
+         <helpsystemFontSize>0.0375</helpsystemFontSize><!-- 18 -->
+      </variables>
+   </fontSize>
+   <variant name="gamelist-screenshot,gamelist-fanart">
+      <view name="gamelist">
+         <image name="sticker-glow">
+            <origin>0.5 0.5</origin>
+            <imageType>marquee</imageType>
+            <color>000000</color>
+            <saturation>0</saturation>
+            <zIndex>4</zIndex>
+         </image>
+         <image name="sticker">
+            <origin>0.5 0.5</origin>
+            <imageType>marquee</imageType>
+            <zIndex>5</zIndex>
+         </image>
+      </view>
+   </variant>
+   <variant name="gamelist-screenshot">
+      <view name="gamelist">
+         <video name="polaroid-art">
+            <imageType>screenshot</imageType>
+         </video>
+      </view>
+   </variant>
+   <variant name="gamelist-titlescreen">
+      <view name="gamelist">
+         <video name="polaroid-art">
+            <imageType>titlescreen</imageType>
+         </video>
+      </view>
+   </variant>
+   <variant name="gamelist-fanart">
+      <view name="gamelist">
+         <video name="polaroid-art">
+            <imageType>fanart</imageType>
+         </video>
+      </view>
+   </variant>
+
+   <!--
+   ///
+   Sounds
+   ///
+   -->
+   <view name="all">
+      <sound name="systembrowse">
+         <path>./_inc/sounds/systembrowse.wav</path>
+      </sound>
+      <sound name="quicksysselect">
+         <path>./_inc/sounds/quicksysselect.wav</path>
+      </sound>
+      <sound name="select">
+         <path>./_inc/sounds/select.wav</path>
+      </sound>
+      <sound name="back">
+         <path>./_inc/sounds/back.wav</path>
+      </sound>
+      <sound name="scroll">
+         <path>./_inc/sounds/scroll.wav</path>
+      </sound>
+      <sound name="favorite">
+         <path>./_inc/sounds/favorite.wav</path>
+      </sound>
+      <sound name="launch">
+         <path>./_inc/sounds/launch.wav</path>
+      </sound>
+   </view>
+
+   <!--
+   ///
+   Aspect Ratios
+   ///
+   -->
+   <aspectRatio name="16:9">
+      <include>./aspect-ratio-16-9.xml</include>
+   </aspectRatio>
+   <aspectRatio name="4:3">
+      <include>./aspect-ratio-4-3.xml</include>
+   </aspectRatio>
+
+</theme>

@@ -1,0 +1,54 @@
+<!-- 
+16:9 aspect ratio
+based on 853x480
+-->
+<theme>
+   <view name="gamelist">
+      <helpsystem name="help">
+         <pos>0.206330597889801 0.9375</pos><!-- 176 450 -->
+      </helpsystem>
+      <image name="table">
+         <path>./_inc/images/layer-table-${tableImageColor}-16-9.png</path>
+      </image>
+      <image name="book">
+         <path>./_inc/images/layer-book-16-9.png</path>
+      </image>
+      <textlist name="list">
+         <pos>0.206330597889801 0.133333333333333</pos><!-- 176 64 -->
+         <size>0.246189917936694 0.604166666666667</size><!-- 210 290 -->
+         <horizontalMargin>0.025791324736225</horizontalMargin><!-- 22 -->
+         <selectorVerticalOffset>0.003</selectorVerticalOffset><!-- 1.44 -->
+      </textlist>
+      <image name="polaroid-background">
+         <pos>0.71746776084408 0.333333333333333</pos><!-- 612 160 -->
+         <cropSize>0.293083235638921 0.5625</cropSize><!-- 250 270 -->
+         <rotation>11</rotation>
+      </image>
+      <video name="polaroid-art">
+         <pos>0.71746776084408 0.333333333333333</pos><!-- 612 160 -->
+         <cropSize>0.293083235638921 0.5625</cropSize><!-- 250 270 -->
+         <rotation>11</rotation>
+      </video>
+      <image name="polaroid">
+         <path>./_inc/images/layer-polaroid-16-9.png</path>
+         <zIndex>3</zIndex>
+      </image>
+      <image name="pen">
+         <path>./_inc/images/layer-pen-16-9.png</path>
+      </image>
+   </view>
+   <variant name="gamelist-screenshot,gamelist-fanart">
+      <view name="gamelist">
+         <image name="sticker-glow,sticker">
+            <maxSize>0.199296600234467 0.166666666666667</maxSize><!-- 170 80 -->
+            <rotation>11</rotation>
+         </image>
+         <image name="sticker-glow">
+            <pos>0.763188745603751 0.63125</pos><!-- 651 303 -->
+         </image>
+         <image name="sticker">
+            <pos>0.762016412661196 0.629166666666667</pos><!-- 650 302 -->
+         </image>
+      </view>
+   </variant>
+</theme>

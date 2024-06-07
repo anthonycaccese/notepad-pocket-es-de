@@ -1,0 +1,74 @@
+<themeCapabilities>
+   
+   <themeName>Notebook</themeName>
+
+   <!--
+   ///
+   Aspect Ratios
+   ///
+   -->
+   <aspectRatio>16:9</aspectRatio>
+   <aspectRatio>4:3</aspectRatio>
+
+   <!--
+   ///
+   Font Size
+   ///
+   -->
+   <fontSize>small</fontSize>
+   <fontSize>medium</fontSize>
+   <fontSize>large</fontSize>
+
+   <!--
+   ///
+   Color Schemes
+   ///
+   -->
+   <colorScheme name="purple">
+      <label>Purple</label>
+   </colorScheme>
+   <colorScheme name="walnut">
+      <label>Walnut</label>
+   </colorScheme>
+   <colorScheme name="cutting-mat">
+      <label>Cutting Mat</label>
+   </colorScheme>
+
+   <!--
+   ///
+   Transitions
+   ///
+   -->
+   <transitions name="transitions">
+      <label>transitions</label>
+      <selectable>false</selectable>
+      <systemToSystem>instant</systemToSystem>
+      <systemToGamelist>instant</systemToGamelist>
+      <gamelistToGamelist>instant</gamelistToGamelist>
+      <gamelistToSystem>instant</gamelistToSystem>
+      <startupToSystem>instant</startupToSystem>
+      <startupToGamelist>instant</startupToGamelist>
+   </transitions>
+   <suppressTransitionProfiles>
+      <entry>builtin-fade</entry>
+   </suppressTransitionProfiles>
+
+   <!--
+   ///
+   Variants
+   ///
+   -->
+   <variant name="gamelist-screenshot">
+      <label>List: Screenshot</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="gamelist-fanart">
+      <label>List: Fanart</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="gamelist-titlescreen">
+      <label>List: Title Screen</label>
+      <selectable>true</selectable>
+   </variant>
+
+</themeCapabilities>
