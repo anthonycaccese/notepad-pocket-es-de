@@ -69,18 +69,19 @@ based on 853x480
       </badges>
       <image name="polaroid-background">
          <pos>0.71746776084408 0.333333333333333</pos><!-- 612 160 -->
-         <cropSize>0.293083235638921 0.5625</cropSize><!-- 250 270 -->
+         <cropSize>0.304806565064478 0.5625</cropSize><!-- 260 270 -->
          <rotation>11</rotation>
       </image>
       <textlist name="list">
-         <pos>0.206330597889801 0.133333333333333</pos><!-- 176 64 -->
+         <pos>0.206330597889801 0.177083333333333</pos><!-- 176 85 -->
+         <!-- Without Logo <pos>0.206330597889801 0.133333333333333</pos><! 176 64 -->
          <size>0.246189917936694 0.604166666666667</size><!-- 210 290 -->
          <horizontalMargin>0.025791324736225</horizontalMargin><!-- 22 -->
          <selectorVerticalOffset>0.003</selectorVerticalOffset><!-- 1.44 -->
       </textlist>
       <video name="polaroid-art">
          <pos>0.71746776084408 0.333333333333333</pos><!-- 612 160 -->
-         <cropSize>0.293083235638921 0.5625</cropSize><!-- 250 270 -->
+         <cropSize>0.304806565064478 0.5625</cropSize><!-- 260 270 -->
          <rotation>11</rotation>
       </video>
       <image name="polaroid">
@@ -88,6 +89,13 @@ based on 853x480
       </image>
       <image name="pen">
          <path>./_inc/images/16-9/layer-18-pen.png</path>
+      </image>
+      <image name="logo">
+         <pos>0.328253223915592 0.120833333333333</pos><!-- 280 58 -->
+         <maxSize>0.246189917936694 0.045833333333333</maxSize><!-- 210 22 -->
+      </image>
+      <image name="logo-distort">
+         <path>./_inc/images/16-9/layer-20-logo-distort.png</path>
       </image>
       <helpsystem name="help">
          <pos>0.248534583821805 0.933333333333333</pos><!-- 212 448 -->
