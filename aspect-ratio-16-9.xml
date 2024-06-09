@@ -4,14 +4,73 @@ based on 853x480
 -->
 <theme>
    <view name="gamelist">
-      <helpsystem name="help">
-         <pos>0.206330597889801 0.9375</pos><!-- 176 450 -->
-      </helpsystem>
       <image name="table">
-         <path>./_inc/images/layer-table-${tableImageColor}-16-9.png</path>
+         <path>./_inc/images/16-9/layer-0-table-${tableImageColor}.png</path>
       </image>
-      <image name="book">
-         <path>./_inc/images/layer-book-16-9.png</path>
+      <image name="paper">
+         <path>./_inc/images/16-9/layer-1-paper.png</path>
+      </image>
+      <image name="highlighter-color">
+         <path>./_inc/images/16-9/layer-2-highlighter-color.png</path>
+      </image>
+      <image name="highlighter">
+         <path>./_inc/images/16-9/layer-3-highlighter.png</path>
+      </image>
+      <image name="notepad">
+         <path>./_inc/images/16-9/layer-4-notepad.png</path>
+      </image>
+      <image name="tab-yellow-off">
+         <path>./_inc/images/16-9/layer-5-tab-yellow-off.png</path>
+      </image>
+      <badges name="tab-yellow-on">
+         <size>1 1</size>
+         <lines>1</lines>
+         <itemsPerLine>1</itemsPerLine>
+         <slots>favorite</slots>
+         <itemMargin>0 0</itemMargin>
+         <customBadgeIcon badge="favorite">./_inc/images/16-9/layer-6-tab-yellow-on.png</customBadgeIcon>
+         <zIndex>6</zIndex>
+      </badges>
+      <image name="tab-blue-off">
+         <path>./_inc/images/16-9/layer-7-tab-blue-off.png</path>
+      </image>
+      <badges name="tab-blue-on">
+         <size>1 1</size>
+         <lines>1</lines>
+         <itemsPerLine>1</itemsPerLine>
+         <slots>altemulator</slots>
+         <itemMargin>0 0</itemMargin>
+         <customBadgeIcon badge="altemulator">./_inc/images/16-9/layer-8-tab-blue-on.png</customBadgeIcon>
+         <zIndex>8</zIndex>
+      </badges>
+      <image name="tab-green-off">
+         <path>./_inc/images/16-9/layer-9-tab-green-off.png</path>
+      </image>
+      <badges name="tab-green-on">
+         <size>1 1</size>
+         <lines>1</lines>
+         <itemsPerLine>1</itemsPerLine>
+         <slots>completed</slots>
+         <itemMargin>0 0</itemMargin>
+         <customBadgeIcon badge="completed">./_inc/images/16-9/layer-10-tab-green-on.png</customBadgeIcon>
+         <zIndex>10</zIndex>
+      </badges>
+      <image name="tab-red-off">
+         <path>./_inc/images/16-9/layer-11-tab-red-off.png</path>
+      </image>
+      <badges name="tab-red-on">
+         <size>1 1</size>
+         <lines>1</lines>
+         <itemsPerLine>1</itemsPerLine>
+         <slots>broken</slots>
+         <itemMargin>0 0</itemMargin>
+         <customBadgeIcon badge="broken">./_inc/images/16-9/layer-12-tab-red-on.png</customBadgeIcon>
+         <zIndex>12</zIndex>
+      </badges>
+      <image name="polaroid-background">
+         <pos>0.71746776084408 0.333333333333333</pos><!-- 612 160 -->
+         <cropSize>0.293083235638921 0.5625</cropSize><!-- 250 270 -->
+         <rotation>11</rotation>
       </image>
       <textlist name="list">
          <pos>0.206330597889801 0.133333333333333</pos><!-- 176 64 -->
@@ -19,23 +78,20 @@ based on 853x480
          <horizontalMargin>0.025791324736225</horizontalMargin><!-- 22 -->
          <selectorVerticalOffset>0.003</selectorVerticalOffset><!-- 1.44 -->
       </textlist>
-      <image name="polaroid-background">
-         <pos>0.71746776084408 0.333333333333333</pos><!-- 612 160 -->
-         <cropSize>0.293083235638921 0.5625</cropSize><!-- 250 270 -->
-         <rotation>11</rotation>
-      </image>
       <video name="polaroid-art">
          <pos>0.71746776084408 0.333333333333333</pos><!-- 612 160 -->
          <cropSize>0.293083235638921 0.5625</cropSize><!-- 250 270 -->
          <rotation>11</rotation>
       </video>
       <image name="polaroid">
-         <path>./_inc/images/layer-polaroid-16-9.png</path>
-         <zIndex>3</zIndex>
+         <path>./_inc/images/16-9/layer-15-polaroid.png</path>
       </image>
       <image name="pen">
-         <path>./_inc/images/layer-pen-16-9.png</path>
+         <path>./_inc/images/16-9/layer-18-pen.png</path>
       </image>
+      <helpsystem name="help">
+         <pos>0.248534583821805 0.933333333333333</pos><!-- 212 448 -->
+      </helpsystem>
    </view>
    <variant name="gamelist-screenshot,gamelist-fanart">
       <view name="gamelist">

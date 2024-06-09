@@ -25,34 +25,67 @@ https://github.com/anthonycaccese/scrap-book-es-de
    ///
    -->
    <view name="gamelist">
-      <helpsystem name="help">
-         <origin>0 0.5</origin>
-         <originDimmed>0.5 0.5</originDimmed>
-         <posDimmed>0.5 0.93</posDimmed>
-         <fontPath>${helpsystemFontPath}</fontPath>
-         <fontSize>${helpsystemFontSize}</fontSize>
-         <letterCase>capitalize</letterCase>
-         <iconColor>${helpsystemIconColor}</iconColor>
-         <textColor>${helpsystemTextColor}</textColor>
-      </helpsystem>
       <image name="table">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
          <zIndex>0</zIndex>
       </image>
-      <image name="book">
+      <image name="paper">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
          <zIndex>1</zIndex>
+      </image>
+      <image name="highlighter-color">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <color>${highlighterColor}</color>
+         <zIndex>2</zIndex>
+      </image>
+      <image name="highlighter">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>3</zIndex>
+      </image>
+      <image name="notepad">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>4</zIndex>
+      </image>
+      <image name="tab-yellow-off">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>5</zIndex>
+      </image>
+      <image name="tab-blue-off">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>7</zIndex>
+      </image>
+      <image name="tab-green-off">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>9</zIndex>
+      </image>
+      <image name="tab-red-off">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>11</zIndex>
       </image>
       <image name="polaroid-background">
          <origin>0.5 0.5</origin>
          <tile>true</tile>
          <path>${spacerImage}</path>
          <color>111111</color>
-         <zIndex>1</zIndex>
+         <zIndex>13</zIndex>
       </image>
       <textlist name="list">
          <origin>0 0</origin>
@@ -65,27 +98,37 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <primaryColor>777777</primaryColor>
          <secondaryColor>777777</secondaryColor>
          <selectorImagePath>./_inc/images/textlist-selector.png</selectorImagePath>
-         <zIndex>2</zIndex>
+         <zIndex>14</zIndex>
       </textlist>
       <video name="polaroid-art">
          <origin>0.5 0.5</origin>
          <delay>3</delay>
          <iterationCount>1</iterationCount>
          <onIterationsDone>image</onIterationsDone>
-         <zIndex>2</zIndex>
+         <zIndex>14</zIndex>
       </video>
       <image name="polaroid">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
-         <zIndex>3</zIndex>
+         <zIndex>15</zIndex>
       </image>
       <image name="pen">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
-         <zIndex>6</zIndex>
+         <zIndex>18</zIndex>
       </image>
+      <helpsystem name="help">
+         <origin>0 0.5</origin>
+         <originDimmed>0.5 0.5</originDimmed>
+         <posDimmed>0.5 0.93</posDimmed>
+         <fontPath>${helpsystemFontPath}</fontPath>
+         <fontSize>${helpsystemFontSize}</fontSize>
+         <letterCase>capitalize</letterCase>
+         <iconColor>${helpsystemIconColor}</iconColor>
+         <textColor>${helpsystemTextColor}</textColor>
+      </helpsystem>
    </view>
    <fontSize name="small">
       <variables>
@@ -115,12 +158,12 @@ https://github.com/anthonycaccese/scrap-book-es-de
             <imageType>marquee</imageType>
             <color>000000</color>
             <saturation>0</saturation>
-            <zIndex>4</zIndex>
+            <zIndex>16</zIndex>
          </image>
          <image name="sticker">
             <origin>0.5 0.5</origin>
             <imageType>marquee</imageType>
-            <zIndex>5</zIndex>
+            <zIndex>17</zIndex>
          </image>
       </view>
    </variant>

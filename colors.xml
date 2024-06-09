@@ -3,24 +3,27 @@
       <variables>
          <tableImageColor>purple</tableImageColor>
          <textlistSelectorColor>ff00f4aa</textlistSelectorColor>
-         <helpsystemIconColor>ffffff88</helpsystemIconColor>
-         <helpsystemTextColor>ffffffaa</helpsystemTextColor>
+         <highlighterColor>ff00f455</highlighterColor>
+         <helpsystemIconColor>00000088</helpsystemIconColor>
+         <helpsystemTextColor>000000aa</helpsystemTextColor>
       </variables>
    </colorScheme>
    <colorScheme name="walnut">
       <variables>
          <tableImageColor>walnut</tableImageColor>
          <textlistSelectorColor>abff32</textlistSelectorColor>
-         <helpsystemIconColor>ffffff88</helpsystemIconColor>
-         <helpsystemTextColor>ffffffaa</helpsystemTextColor>
+         <highlighterColor>abff32</highlighterColor>
+         <helpsystemIconColor>00000088</helpsystemIconColor>
+         <helpsystemTextColor>000000aa</helpsystemTextColor>
       </variables>
    </colorScheme>
    <colorScheme name="cutting-mat">
       <variables>
          <tableImageColor>cutting-mat</tableImageColor>
          <textlistSelectorColor>d4ff32</textlistSelectorColor>
-         <helpsystemIconColor>ffffff88</helpsystemIconColor>
-         <helpsystemTextColor>ffffffaa</helpsystemTextColor>
+         <highlighterColor>d4ff32</highlighterColor>
+         <helpsystemIconColor>00000088</helpsystemIconColor>
+         <helpsystemTextColor>000000aa</helpsystemTextColor>
       </variables>
    </colorScheme>
 </theme>
