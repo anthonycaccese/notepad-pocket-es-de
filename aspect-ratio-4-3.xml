@@ -56,7 +56,7 @@ based on 640x480
       </image>
       <image name="logo">
          <pos>0.203125 0.120833333333333</pos><!-- 130 58 -->
-         <maxSize>0.328125 0.045833333333333</maxSize><!-- 210 22 -->
+         <maxSize>0.25 0.045833333333333</maxSize><!-- 160 22 -->
       </image>
       <image name="logo-distort">
          <path>./_inc/images/4-3/layer-20-logo-distort.png</path>
