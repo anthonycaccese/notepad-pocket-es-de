@@ -15,6 +15,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
    <variables>
       <spacerImage>./_inc/images/space.png</spacerImage>
       <textlistFontPath>./_inc/fonts/ink-free.ttf</textlistFontPath>
+      <postItFontPath>./_inc/fonts/Antro_Vectra_Bolder.otf</postItFontPath>
       <helpsystemFontPath>./_inc/fonts/ink-free.ttf</helpsystemFontPath>
    </variables>
    <include>./colors.xml</include>
@@ -146,6 +147,28 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <cropSize>1 1</cropSize>
          <zIndex>10</zIndex>
       </image>
+      <text name="post-it-count">
+         <origin>0.5 0.5</origin>
+         <systemdata>gamecountGamesNoText</systemdata>
+         <fontPath>${postItFontPath}</fontPath>
+         <fontSize>0.05</fontSize>
+         <lineSpacing>1</lineSpacing>
+         <horizontalAlignment>center</horizontalAlignment>
+         <color>000000</color>
+         <rotation>-39</rotation>
+         <zIndex>11</zIndex>
+      </text>
+      <text name="post-it-text">
+         <origin>0.5 0.5</origin>
+         <text>games</text>
+         <fontPath>${postItFontPath}</fontPath>
+         <fontSize>0.0375</fontSize>
+         <lineSpacing>1</lineSpacing>
+         <horizontalAlignment>center</horizontalAlignment>
+         <color>000000</color>
+         <rotation>-39</rotation>
+         <zIndex>11</zIndex>
+      </text>
       <image name="highlighter-color">
          <origin>0 0</origin>
          <pos>0 0</pos>

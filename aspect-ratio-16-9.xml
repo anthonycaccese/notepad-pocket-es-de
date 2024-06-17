@@ -64,6 +64,14 @@ based on 1920x1080
       <image name="post-it">
          <path>./_inc/images/16-9/system-layer-10-post-it.png</path>
       </image>
+      <text name="post-it-count">
+         <pos>0.828125 0.42962962962963</pos><!-- 1590 464 -->
+         <size>0.085416666666667 0</size><!-- 164 0 -->
+      </text>
+      <text name="post-it-text">
+         <pos>0.847916666666667 0.457407407407407</pos><!-- 1628 494 -->
+         <size>0.085416666666667 0</size><!-- 164 0 -->
+      </text>
       <image name="highlighter-color">
          <path>./_inc/images/16-9/system-layer-12-highlighter-color.png</path>
       </image>
