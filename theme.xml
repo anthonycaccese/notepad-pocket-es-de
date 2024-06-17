@@ -30,30 +30,40 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>0</zIndex>
       </image>
       <image name="paper">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>2</zIndex>
       </image>
       <image name="disks">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>3</zIndex>
       </image>
       <image name="paper-clips">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>4</zIndex>
       </image>
       <image name="push-pins">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>5</zIndex>
       </image>
       <helpsystem name="help">
@@ -95,12 +105,16 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <path>${spacerImage}</path>
          <color>111111</color>
          <rotation>5.5</rotation>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>1</zIndex>
       </image>
       <image name="polaroid-art-on">
          <origin>0.5 0.5</origin>
          <gameselector>system-artwork</gameselector>
          <rotation>5.5</rotation>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>1</zIndex>
       </image>
       <image name="cover">
@@ -108,12 +122,16 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <imageType>cover</imageType>
          <gameselector>system-artwork</gameselector>
          <rotation>-6</rotation>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>1</zIndex>
       </image>
       <image name="polaroid">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>3</zIndex>
       </image>
       <image name="notepad">
@@ -139,6 +157,8 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>9</zIndex>
       </image>
       <image name="post-it">
@@ -174,12 +194,16 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
          <color>${highlighterColor}</color>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>12</zIndex>
       </image>
       <image name="highlighter">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>13</zIndex>
       </image>
    </view>
@@ -194,6 +218,8 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <origin>0 0</origin>
          <imageType>cover</imageType>
          <rotation>-6</rotation>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>1</zIndex>
       </image>
       <image name="highlighter-color">
@@ -201,12 +227,16 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
          <color>${highlighterColor}</color>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>2</zIndex>
       </image>
       <image name="highlighter">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>3</zIndex>
       </image>
       <image name="notepad">
@@ -276,6 +306,8 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>18</zIndex>
       </image>
       <image name="logo">
