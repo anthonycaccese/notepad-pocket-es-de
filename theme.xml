@@ -153,19 +153,11 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <cropSize>1 1</cropSize>
          <zIndex>8</zIndex>
       </image>
-      <image name="pen">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
-         <stationary>always</stationary>
-         <renderDuringTransitions>true</renderDuringTransitions>
-         <zIndex>9</zIndex>
-      </image>
       <image name="post-it">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
-         <zIndex>10</zIndex>
+         <zIndex>9</zIndex>
       </image>
       <text name="post-it-count">
          <origin>0.5 0.5</origin>
@@ -176,7 +168,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <horizontalAlignment>center</horizontalAlignment>
          <color>000000</color>
          <rotation>-39</rotation>
-         <zIndex>11</zIndex>
+         <zIndex>10</zIndex>
       </text>
       <text name="post-it-text">
          <origin>0.5 0.5</origin>
@@ -187,8 +179,16 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <horizontalAlignment>center</horizontalAlignment>
          <color>000000</color>
          <rotation>-39</rotation>
-         <zIndex>11</zIndex>
+         <zIndex>10</zIndex>
       </text>
+      <image name="pen">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
+         <zIndex>11</zIndex>
+      </image>
       <image name="highlighter-color">
          <origin>0 0</origin>
          <pos>0 0</pos>

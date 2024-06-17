@@ -58,11 +58,11 @@ based on 1920x1080
       <image name="notepad-clip">
          <path>./_inc/images/16-9/system-layer-8-notepad-clip.png</path>
       </image>
-      <image name="pen">
-         <path>./_inc/images/16-9/system-layer-9-pen.png</path>
-      </image>
       <image name="post-it">
-         <path>./_inc/images/16-9/system-layer-10-post-it.png</path>
+         <path>./_inc/images/16-9/system-layer-9-post-it.png</path>
+      </image>
+      <image name="pen">
+         <path>./_inc/images/16-9/system-layer-11-pen.png</path>
       </image>
       <text name="post-it-count">
          <pos>0.828125 0.42962962962963</pos><!-- 1590 464 -->
