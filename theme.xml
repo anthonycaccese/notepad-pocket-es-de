@@ -21,10 +21,10 @@ https://github.com/anthonycaccese/scrap-book-es-de
 
    <!--
    ///
-   Gamelist
+   System & Gamelist
    ///
    -->
-   <view name="gamelist">
+   <view name="system,gamelist">
       <image name="table">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -35,6 +35,141 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
+         <zIndex>2</zIndex>
+      </image>
+      <image name="disks">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>3</zIndex>
+      </image>
+      <image name="paper-clips">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>4</zIndex>
+      </image>
+      <image name="push-pins">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>5</zIndex>
+      </image>
+      <helpsystem name="help">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.93</pos>
+         <fontPath>${helpsystemFontPath}</fontPath>
+         <fontSize>${helpsystemFontSize}</fontSize>
+         <letterCase>capitalize</letterCase>
+         <iconColor>${helpsystemIconColor}</iconColor>
+         <textColor>${helpsystemTextColor}</textColor>
+      </helpsystem>
+   </view>
+
+   <!--
+   ///
+   System
+   ///
+   -->
+   <view name="system">
+      <carousel name="navgation">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>00000000</color>
+         <textColor>00000000</textColor>
+         <fastScrolling>true</fastScrolling>
+         <itemScale>1</itemScale>
+         <itemSize>1 1</itemSize>
+         <maxItemCount>1</maxItemCount>
+         <zIndex>0</zIndex>
+      </carousel>
+      <gameselector name="system-artwork">
+         <selection>random</selection>
+         <gameCount>1</gameCount>
+      </gameselector>
+      <image name="polaroid-art-off">
+         <origin>0.5 0.5</origin>
+         <tile>true</tile>
+         <path>${spacerImage}</path>
+         <color>111111</color>
+         <zIndex>1</zIndex>
+      </image>
+      <image name="polaroid-art-on">
+         <origin>0.5 0.5</origin>
+         <gameselector>system-artwork</gameselector>
+         <rotation>5.5</rotation>
+         <zIndex>1</zIndex>
+      </image>
+      <image name="cover">
+         <origin>0 0</origin>
+         <imageType>cover</imageType>
+         <gameselector>system-artwork</gameselector>
+         <rotation>-6</rotation>
+         <zIndex>1</zIndex>
+      </image>
+      <image name="polaroid">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>3</zIndex>
+      </image>
+      <image name="notepad">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>6</zIndex>
+      </image>
+      <image name="logo">
+         <origin>0.5 0.5</origin>
+         <path>./_inc/systems/logos/${system.theme}.svg</path>
+         <rotation>-24</rotation>
+         <color>ffffff</color>
+         <zIndex>7</zIndex>
+      </image>
+      <image name="notepad-clip">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>8</zIndex>
+      </image>
+      <image name="pen">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>9</zIndex>
+      </image>
+      <image name="post-it">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>10</zIndex>
+      </image>
+      <image name="highlighter-color">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <color>${highlighterColor}</color>
+         <zIndex>12</zIndex>
+      </image>
+      <image name="highlighter">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <zIndex>13</zIndex>
+      </image>
+   </view>
+
+   <!--
+   ///
+   Gamelist
+   ///
+   -->
+   <view name="gamelist">
+      <image name="cover">
+         <origin>0 0</origin>
+         <imageType>cover</imageType>
+         <rotation>-6</rotation>
          <zIndex>1</zIndex>
       </image>
       <image name="highlighter-color">
@@ -54,7 +189,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <origin>0 0</origin>
          <pos>0 0</pos>
          <cropSize>1 1</cropSize>
-         <zIndex>4</zIndex>
+         <zIndex>5</zIndex>
       </image>
       <image name="tab-yellow-off">
          <origin>0 0</origin>
@@ -80,13 +215,6 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <cropSize>1 1</cropSize>
          <zIndex>11</zIndex>
       </image>
-      <image name="polaroid-background">
-         <origin>0.5 0.5</origin>
-         <tile>true</tile>
-         <path>${spacerImage}</path>
-         <color>111111</color>
-         <zIndex>13</zIndex>
-      </image>
       <textlist name="list">
          <origin>0 0</origin>
          <fontPath>${textlistFontPath}</fontPath>
@@ -100,7 +228,14 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <selectorImagePath>./_inc/images/textlist-selector.png</selectorImagePath>
          <zIndex>14</zIndex>
       </textlist>
-      <video name="polaroid-art">
+      <image name="polaroid-art-off">
+         <origin>0.5 0.5</origin>
+         <tile>true</tile>
+         <path>${spacerImage}</path>
+         <color>111111</color>
+         <zIndex>13</zIndex>
+      </image>
+      <video name="polaroid-art-on">
          <origin>0.5 0.5</origin>
          <delay>3</delay>
          <iterationCount>1</iterationCount>
@@ -133,17 +268,65 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <zIndex>0</zIndex>
          <zIndex>20</zIndex>
       </image>
-      <helpsystem name="help">
-         <origin>0 0.5</origin>
-         <originDimmed>0.5 0.5</originDimmed>
-         <posDimmed>0.5 0.93</posDimmed>
-         <fontPath>${helpsystemFontPath}</fontPath>
-         <fontSize>${helpsystemFontSize}</fontSize>
-         <letterCase>capitalize</letterCase>
-         <iconColor>${helpsystemIconColor}</iconColor>
-         <textColor>${helpsystemTextColor}</textColor>
-      </helpsystem>
    </view>
+
+   <!--
+   ///
+   Variants
+   ///
+   -->
+   <variant name="polaroid-screenshot">
+      <view name="system">
+         <image name="polaroid-art-on">
+            <imageType>screenshot</imageType>
+         </image>
+      </view>
+      <view name="gamelist">
+         <video name="polaroid-art-on">
+            <imageType>screenshot</imageType>
+         </video>
+      </view>
+   </variant>
+   <variant name="polaroid-titlescreen">
+      <view name="system">
+         <image name="polaroid-art-on">
+            <imageType>titlescreen</imageType>
+         </image>
+      </view>
+      <view name="gamelist">
+         <video name="polaroid-art-on">
+            <imageType>titlescreen</imageType>
+         </video>
+      </view>
+   </variant>
+   <variant name="polaroid-fanart">
+      <view name="system">
+         <image name="polaroid-art-on">
+            <imageType>fanart</imageType>
+         </image>
+      </view>
+      <view name="gamelist">
+         <video name="polaroid-art-on">
+            <imageType>fanart</imageType>
+         </video>
+      </view>
+   </variant>
+   <variant name="polaroid-screenshot,polaroid-fanart">
+      <view name="gamelist">
+         <image name="sticker">
+            <origin>0.5 0.5</origin>
+            <imageType>marquee</imageType>
+            <zIndex>17</zIndex>
+         </image>
+      </view>
+   </variant>
+
+   <!--
+   ///
+   Font Size
+   Based on 480 height for small screen readability
+   ///
+   -->
    <fontSize name="small">
       <variables>
          <textlistFontSize>0.041666666666667</textlistFontSize><!-- 20 -->
@@ -165,43 +348,6 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <helpsystemFontSize>0.0375</helpsystemFontSize><!-- 18 -->
       </variables>
    </fontSize>
-   <variant name="gamelist-screenshot,gamelist-fanart">
-      <view name="gamelist">
-         <image name="sticker-glow">
-            <origin>0.5 0.5</origin>
-            <imageType>marquee</imageType>
-            <color>000000</color>
-            <saturation>0</saturation>
-            <zIndex>16</zIndex>
-         </image>
-         <image name="sticker">
-            <origin>0.5 0.5</origin>
-            <imageType>marquee</imageType>
-            <zIndex>17</zIndex>
-         </image>
-      </view>
-   </variant>
-   <variant name="gamelist-screenshot">
-      <view name="gamelist">
-         <video name="polaroid-art">
-            <imageType>screenshot</imageType>
-         </video>
-      </view>
-   </variant>
-   <variant name="gamelist-titlescreen">
-      <view name="gamelist">
-         <video name="polaroid-art">
-            <imageType>titlescreen</imageType>
-         </video>
-      </view>
-   </variant>
-   <variant name="gamelist-fanart">
-      <view name="gamelist">
-         <video name="polaroid-art">
-            <imageType>fanart</imageType>
-         </video>
-      </view>
-   </variant>
 
    <!--
    ///
@@ -239,12 +385,6 @@ https://github.com/anthonycaccese/scrap-book-es-de
    -->
    <aspectRatio name="16:9">
       <include>./aspect-ratio-16-9.xml</include>
-   </aspectRatio>
-   <aspectRatio name="4:3">
-      <include>./aspect-ratio-4-3.xml</include>
-   </aspectRatio>
-   <aspectRatio name="1:1">
-      <include>./aspect-ratio-1-1.xml</include>
    </aspectRatio>
 
 </theme>

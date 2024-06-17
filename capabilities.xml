@@ -1,6 +1,6 @@
 <themeCapabilities>
    
-   <themeName>Notebook</themeName>
+   <themeName>Notepad Pocket</themeName>
 
    <!--
    ///
@@ -8,8 +8,6 @@
    ///
    -->
    <aspectRatio>16:9</aspectRatio>
-   <aspectRatio>4:3</aspectRatio>
-   <aspectRatio>1:1</aspectRatio>
 
    <!--
    ///
@@ -25,14 +23,11 @@
    Color Schemes
    ///
    -->
-   <colorScheme name="purple">
-      <label>Purple</label>
-   </colorScheme>
    <colorScheme name="walnut">
       <label>Walnut</label>
    </colorScheme>
-   <colorScheme name="cutting-mat">
-      <label>Cutting Mat</label>
+   <colorScheme name="purple">
+      <label>Purple</label>
    </colorScheme>
 
    <!--
@@ -51,7 +46,9 @@
       <startupToGamelist>instant</startupToGamelist>
    </transitions>
    <suppressTransitionProfiles>
+      <entry>builtin-instant</entry>
       <entry>builtin-fade</entry>
+      <entry>builtin-slide</entry>
    </suppressTransitionProfiles>
 
    <!--
@@ -59,16 +56,16 @@
    Variants
    ///
    -->
-   <variant name="gamelist-screenshot">
-      <label>List: Screenshot</label>
+   <variant name="polaroid-screenshot">
+      <label>Polaroid: Screenshot</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="gamelist-fanart">
-      <label>List: Fanart</label>
+   <variant name="polaroid-fanart">
+      <label>Polaroid: Fanart</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="gamelist-titlescreen">
-      <label>List: Title Screen</label>
+   <variant name="polaroid-titlescreen">
+      <label>Polaroid: Title Screen</label>
       <selectable>true</selectable>
    </variant>
 

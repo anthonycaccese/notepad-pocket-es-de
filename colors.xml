@@ -1,13 +1,4 @@
 <theme>
-   <colorScheme name="purple">
-      <variables>
-         <tableImageColor>purple</tableImageColor>
-         <textlistSelectorColor>ff00f4aa</textlistSelectorColor>
-         <highlighterColor>ff00f455</highlighterColor>
-         <helpsystemIconColor>00000088</helpsystemIconColor>
-         <helpsystemTextColor>000000aa</helpsystemTextColor>
-      </variables>
-   </colorScheme>
    <colorScheme name="walnut">
       <variables>
          <tableImageColor>walnut</tableImageColor>
@@ -17,11 +8,11 @@
          <helpsystemTextColor>000000aa</helpsystemTextColor>
       </variables>
    </colorScheme>
-   <colorScheme name="cutting-mat">
+   <colorScheme name="purple">
       <variables>
-         <tableImageColor>cutting-mat</tableImageColor>
-         <textlistSelectorColor>d4ff32</textlistSelectorColor>
-         <highlighterColor>d4ff32</highlighterColor>
+         <tableImageColor>purple</tableImageColor>
+         <textlistSelectorColor>ff00f4aa</textlistSelectorColor>
+         <highlighterColor>ff00f455</highlighterColor>
          <helpsystemIconColor>00000088</helpsystemIconColor>
          <helpsystemTextColor>000000aa</helpsystemTextColor>
       </variables>
