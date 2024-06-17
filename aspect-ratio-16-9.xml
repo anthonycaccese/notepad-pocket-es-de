@@ -149,9 +149,8 @@ based on 1920x1080
       </badges>
       <textlist name="list">
          <pos>0.164583333333333 0.177083333333333</pos><!-- 316 85 -->
-         <size>0.246189917936694 0.604166666666667</size><!-- 210 290 -->
-         <horizontalMargin>0.025791324736225</horizontalMargin><!-- 22 -->
-         <selectorVerticalOffset>0.003</selectorVerticalOffset><!-- 1.44 -->
+         <size>0.246189917936694 0.604166666666667</size><!-- 472 290 -->
+         <horizontalMargin>0.025791324736225</horizontalMargin><!-- 50 -->
       </textlist>
       <image name="polaroid-art-off">
          <pos>0.6703125 0.333333333333333</pos><!-- 1287 160 -->
@@ -171,7 +170,7 @@ based on 1920x1080
       </image>
       <image name="logo">
          <pos>0.291666666666667 0.120833333333333</pos><!-- 560 58 -->
-         <maxSize>0.18757327080891 0.045833333333333</maxSize><!-- 160 22 -->
+         <maxSize>0.18757327080891 0.045833333333333</maxSize><!-- 360 22 -->
       </image>
       <image name="logo-distort">
          <path>./_inc/images/16-9/gamelist-layer-20-logo-distort.png</path>
