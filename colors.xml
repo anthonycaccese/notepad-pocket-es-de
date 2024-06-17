@@ -8,6 +8,15 @@
          <helpsystemTextColor>000000aa</helpsystemTextColor>
       </variables>
    </colorScheme>
+   <colorScheme name="carpet">
+      <variables>
+         <tableImageColor>carpet</tableImageColor>
+         <textlistSelectorColor>abff32</textlistSelectorColor>
+         <highlighterColor>abff32</highlighterColor>
+         <helpsystemIconColor>00000088</helpsystemIconColor>
+         <helpsystemTextColor>000000aa</helpsystemTextColor>
+      </variables>
+   </colorScheme>
    <colorScheme name="purple">
       <variables>
          <tableImageColor>purple</tableImageColor>

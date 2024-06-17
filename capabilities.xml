@@ -26,6 +26,9 @@
    <colorScheme name="walnut">
       <label>Walnut</label>
    </colorScheme>
+   <colorScheme name="carpet">
+      <label>Carpet</label>
+   </colorScheme>
    <colorScheme name="purple">
       <label>Purple</label>
    </colorScheme>

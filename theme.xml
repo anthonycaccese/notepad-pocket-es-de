@@ -93,6 +93,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <tile>true</tile>
          <path>${spacerImage}</path>
          <color>111111</color>
+         <rotation>5.5</rotation>
          <zIndex>1</zIndex>
       </image>
       <image name="polaroid-art-on">
