@@ -153,13 +153,13 @@ based on 1920x1080
          <horizontalMargin>0.025791324736225</horizontalMargin><!-- 50 -->
       </textlist>
       <image name="polaroid-art-off">
-         <pos>0.6703125 0.333333333333333</pos><!-- 1287 160 -->
-         <cropSize>0.304806565064478 0.555555555555556</cropSize><!-- 585 600 -->
+         <pos>0.6703125 0.324074074074074</pos><!-- 1287 350 -->
+         <cropSize>0.302083333333333 0.555555555555556</cropSize><!-- 580 600 -->
          <rotation>11</rotation>
       </image>
       <video name="polaroid-art-on">
-         <pos>0.6703125 0.333333333333333</pos><!-- 1287 160 -->
-         <cropSize>0.304806565064478 0.555555555555556</cropSize><!-- 585 600 -->
+         <pos>0.6703125 0.324074074074074</pos><!-- 1287 350 -->
+         <cropSize>0.302083333333333 0.555555555555556</cropSize><!-- 580 600 -->
          <rotation>11</rotation>
       </video>
       <image name="polaroid">
