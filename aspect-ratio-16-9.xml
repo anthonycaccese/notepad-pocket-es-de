@@ -42,7 +42,7 @@ based on 1920x1080
          <cropSize>0.3125 0.574074074074074</cropSize><!-- 600 620 -->
       </image>
       <image name="cover">
-         <pos>0.928125 0.109259259259259</pos><!-- 1782 118 -->
+         <pos>0.928125 0.074074074074074</pos><!-- 1782 80 -->
          <size>0 0.833333333333333</size><!-- 690 900 -->
       </image>
       <image name="polaroid">
@@ -87,7 +87,7 @@ based on 1920x1080
    -->
    <view name="gamelist">
       <image name="cover">
-         <pos>0.928125 0.109259259259259</pos><!-- 1782 118 -->
+         <pos>0.928125 0.074074074074074</pos><!-- 1782 80 -->
          <size>0 0.833333333333333</size><!-- 690 900 -->
       </image>
       <image name="highlighter-color">
