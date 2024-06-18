@@ -128,7 +128,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <rotation>-6</rotation>
          <stationary>always</stationary>
          <renderDuringTransitions>true</renderDuringTransitions>
-         <zIndex>1</zIndex>
+         <zIndex>3</zIndex>
       </image>
       <image name="polaroid">
          <origin>0 0</origin>
@@ -225,14 +225,6 @@ https://github.com/anthonycaccese/scrap-book-es-de
    ///
    -->
    <view name="gamelist">
-      <image name="cover">
-         <origin>0 0</origin>
-         <imageType>cover</imageType>
-         <rotation>-6</rotation>
-         <stationary>always</stationary>
-         <renderDuringTransitions>true</renderDuringTransitions>
-         <zIndex>1</zIndex>
-      </image>
       <image name="highlighter-color">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -242,6 +234,14 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <renderDuringTransitions>true</renderDuringTransitions>
          <interpolation>linear</interpolation>
          <zIndex>2</zIndex>
+      </image>
+      <image name="cover">
+         <origin>0 0</origin>
+         <imageType>cover</imageType>
+         <rotation>-6</rotation>
+         <stationary>always</stationary>
+         <renderDuringTransitions>true</renderDuringTransitions>
+         <zIndex>3</zIndex>
       </image>
       <image name="highlighter">
          <origin>0 0</origin>
