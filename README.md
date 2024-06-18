@@ -44,17 +44,13 @@ The theme has a simple set of options that can be changed directly from the UI S
    - `19.5:9`
    - `1:1`
  
-| 16:9 | 16:10 |
+| 19.5:9 | 16:9 |
 |----|----|
-| <img src="https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/65572533-44c1-44bb-a6ff-0620e848d0fd"> | <img src="https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/7269eb3b-295e-4d63-a452-8dec2e8843c3"> | 
+| <img src="https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/b3a55026-8dbe-4e09-a476-22103e0875b0"> | <img src="https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/65572533-44c1-44bb-a6ff-0620e848d0fd"> |
 
-| 19.5:9 |
-|----|
-| <img src="https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/aae61c31-e753-4ffb-b62a-d522ab66743e"> |
-
-| 4:3 | 1:1 |
-|----|----|
-<img src="https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/804e5d1d-8d73-4e9c-b558-357ecf05a6c1"> | <img src="https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/356148d8-bb0a-40b3-b3f8-4d3cb6d2eb47"> |
+| 16:10 | 4:3 | 1:1 |
+|----|----|----|
+| <img src="https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/7269eb3b-295e-4d63-a452-8dec2e8843c3">| <img src="https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/804e5d1d-8d73-4e9c-b558-357ecf05a6c1"> | <img src="https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/356148d8-bb0a-40b3-b3f8-4d3cb6d2eb47"> |
 
 ## **Credits**
 * The layout and design was created by Zoidburg
