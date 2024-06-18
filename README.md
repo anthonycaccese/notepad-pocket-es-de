@@ -28,8 +28,8 @@ The theme has a simple set of options that can be changed directly from the UI S
  
 | Walnut | Carpet | Purple |
 |----|----|----|
-![Walnut](https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/3fb16e20-6b65-46e0-917e-f2d3b97d6f9d) | ![Carpet](https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/4e1beed8-a76b-41b1-8401-850beabb2be0) | ![Purple](https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/19c9e344-c908-432c-97d9-ba44f450bb51) |
- 
+![Walnut](https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/eb0a65f1-8689-4913-ab95-df6375eb8be1) | ![Carpet](https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/4e1beed8-a76b-41b1-8401-850beabb2be0) | ![Purple](https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/19c9e344-c908-432c-97d9-ba44f450bb51) |
+
 ### **Font Sizes:**
 
 - `Theme Font Size` - sets the size that text will render at. This can be helpful when using the theme on small screens.
