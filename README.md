@@ -6,7 +6,7 @@ This is a tranlation of awesome design and layout work by Zoidburg into a theme 
 
 | System View | Gamelist View |
 |----|----|
-| ![Screenshot 2024-06-16 at 11 28 51 PM](https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/bb8545ed-163b-4093-a467-34f3237eb169) | ![Screenshot 2024-06-16 at 11 28 58 PM](https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/3fb16e20-6b65-46e0-917e-f2d3b97d6f9d) |
+| ![System View](https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/bb8545ed-163b-4093-a467-34f3237eb169) | ![Gamelist View](https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/3fb16e20-6b65-46e0-917e-f2d3b97d6f9d) |
 
 ## **Configuration Options**
 
@@ -25,6 +25,10 @@ The theme has a simple set of options that can be changed directly from the UI S
    - `Walnut` - Places the theme elements on a walnut desk with a classic yellow highlighter 
    - `Carpet` - Places the theme elements on a light carpet and includes an orange highlighter
    - `Purple` - Places the theme elements on a purple desk and includes a pink highlighter
+ 
+| Walnut | Carpet | Purple |
+|----|----|----|
+![Walnut](https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/3fb16e20-6b65-46e0-917e-f2d3b97d6f9d) | ![Carpet](https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/4e1beed8-a76b-41b1-8401-850beabb2be0) | ![Purple](https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/19c9e344-c908-432c-97d9-ba44f450bb51) |
  
 ### **Font Sizes:**
 
