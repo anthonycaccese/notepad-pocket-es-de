@@ -29,7 +29,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
       <image name="table">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <stationary>always</stationary>
          <renderDuringTransitions>true</renderDuringTransitions>
          <zIndex>0</zIndex>
@@ -37,7 +37,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
       <image name="paper">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <stationary>always</stationary>
          <renderDuringTransitions>true</renderDuringTransitions>
          <interpolation>linear</interpolation>
@@ -46,7 +46,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
       <image name="disks">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <stationary>always</stationary>
          <renderDuringTransitions>true</renderDuringTransitions>
          <interpolation>linear</interpolation>
@@ -55,7 +55,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
       <image name="paper-clips">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <stationary>always</stationary>
          <renderDuringTransitions>true</renderDuringTransitions>
          <interpolation>linear</interpolation>
@@ -64,7 +64,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
       <image name="push-pins">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <stationary>always</stationary>
          <renderDuringTransitions>true</renderDuringTransitions>
          <interpolation>linear</interpolation>
@@ -142,7 +142,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
       <image name="notepad">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <interpolation>linear</interpolation>
          <zIndex>6</zIndex>
       </image>
@@ -156,14 +156,14 @@ https://github.com/anthonycaccese/scrap-book-es-de
       <image name="notepad-clip">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <interpolation>linear</interpolation>
          <zIndex>8</zIndex>
       </image>
       <image name="post-it">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <interpolation>linear</interpolation>
          <zIndex>9</zIndex>
       </image>
@@ -192,7 +192,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
       <image name="pen">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <stationary>always</stationary>
          <renderDuringTransitions>true</renderDuringTransitions>
          <interpolation>linear</interpolation>
@@ -201,7 +201,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
       <image name="highlighter-color">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <color>${highlighterColor}</color>
          <stationary>always</stationary>
          <renderDuringTransitions>true</renderDuringTransitions>
@@ -211,7 +211,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
       <image name="highlighter">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <stationary>always</stationary>
          <renderDuringTransitions>true</renderDuringTransitions>
          <interpolation>linear</interpolation>
@@ -236,7 +236,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
       <image name="highlighter-color">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <color>${highlighterColor}</color>
          <stationary>always</stationary>
          <renderDuringTransitions>true</renderDuringTransitions>
@@ -246,7 +246,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
       <image name="highlighter">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <stationary>always</stationary>
          <renderDuringTransitions>true</renderDuringTransitions>
          <interpolation>linear</interpolation>
@@ -255,35 +255,35 @@ https://github.com/anthonycaccese/scrap-book-es-de
       <image name="notepad">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <interpolation>linear</interpolation>
          <zIndex>5</zIndex>
       </image>
       <image name="tab-yellow-off">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <interpolation>linear</interpolation>
          <zIndex>5</zIndex>
       </image>
       <image name="tab-blue-off">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <interpolation>linear</interpolation>
          <zIndex>7</zIndex>
       </image>
       <image name="tab-green-off">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <interpolation>linear</interpolation>
          <zIndex>9</zIndex>
       </image>
       <image name="tab-red-off">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <interpolation>linear</interpolation>
          <zIndex>11</zIndex>
       </image>
@@ -318,14 +318,14 @@ https://github.com/anthonycaccese/scrap-book-es-de
       <image name="polaroid">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <interpolation>linear</interpolation>
          <zIndex>15</zIndex>
       </image>
       <image name="pen">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <stationary>always</stationary>
          <renderDuringTransitions>true</renderDuringTransitions>
          <interpolation>linear</interpolation>
@@ -341,7 +341,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
       <image name="logo-distort">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <cropSize>1 1</cropSize>
+         <size>1 1</size>
          <zIndex>0</zIndex>
          <zIndex>20</zIndex>
       </image>
