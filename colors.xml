@@ -11,8 +11,8 @@
    <colorScheme name="carpet">
       <variables>
          <tableImageColor>carpet</tableImageColor>
-         <textlistSelectorColor>abff32</textlistSelectorColor>
-         <highlighterColor>abff32</highlighterColor>
+         <textlistSelectorColor>ffa500</textlistSelectorColor>
+         <highlighterColor>ffa500</highlighterColor>
          <helpsystemIconColor>00000088</helpsystemIconColor>
          <helpsystemTextColor>000000aa</helpsystemTextColor>
       </variables>
@@ -20,8 +20,8 @@
    <colorScheme name="purple">
       <variables>
          <tableImageColor>purple</tableImageColor>
-         <textlistSelectorColor>ff00f4aa</textlistSelectorColor>
-         <highlighterColor>ff00f455</highlighterColor>
+         <textlistSelectorColor>ff10f0</textlistSelectorColor>
+         <highlighterColor>ff10f0</highlighterColor>
          <helpsystemIconColor>00000088</helpsystemIconColor>
          <helpsystemTextColor>000000aa</helpsystemTextColor>
       </variables>
