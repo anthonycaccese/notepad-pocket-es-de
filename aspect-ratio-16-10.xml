@@ -34,16 +34,12 @@ based on 1728x1080
    -->
    <view name="system">
       <image name="polaroid-art-off">
-         <pos>0.299479166666667 0.342592592592593</pos><!-- 575 370 -->
-         <cropSize>0.3125 0.574074074074074</cropSize><!-- 600 620 -->
+         <pos>0.298032407407407 0.342592592592593</pos><!-- 515 370 -->
+         <cropSize>0.347222222222222 0.574074074074074</cropSize><!-- 600 620 -->
       </image>
       <image name="polaroid-art-on">
-         <pos>0.299479166666667 0.342592592592593</pos><!-- 575 370 -->
-         <cropSize>0.3125 0.574074074074074</cropSize><!-- 600 620 -->
-      </image>
-      <image name="cover">
-         <pos>0.928125 0.109259259259259</pos><!-- 1782 118 -->
-         <size>0 0.833333333333333</size><!-- 690 900 -->
+         <pos>0.298032407407407 0.342592592592593</pos><!-- 515 370 -->
+         <cropSize>0.347222222222222 0.574074074074074</cropSize><!-- 600 620 -->
       </image>
       <image name="polaroid">
          <path>./_inc/images/16-10/system-layer-3-polaroid.png</path>
@@ -52,8 +48,8 @@ based on 1728x1080
          <path>./_inc/images/16-10/system-layer-6-notepad.png</path>
       </image>
       <image name="logo">
-         <pos>0.625 0.45</pos><!-- 1200 486 -->
-         <maxSize>0.364583333333333 0.296296296296296</maxSize><!-- 700 320 -->
+         <pos>0.665509259259259 0.45</pos><!-- 1150 486 -->
+         <maxSize>0.405092592592593 0.296296296296296</maxSize><!-- 700 320 -->
       </image>
       <image name="notepad-clip">
          <path>./_inc/images/16-10/system-layer-8-notepad-clip.png</path>
@@ -65,12 +61,12 @@ based on 1728x1080
          <path>./_inc/images/16-10/system-layer-11-pen.png</path>
       </image>
       <text name="post-it-count">
-         <pos>0.828125 0.42962962962963</pos><!-- 1590 464 -->
-         <size>0.085416666666667 0</size><!-- 164 0 -->
+         <pos>0.891203703703704 0.42962962962963</pos><!-- 1540 464 -->
+         <size>0.094907407407407 0</size><!-- 164 0 -->
       </text>
       <text name="post-it-text">
-         <pos>0.847916666666667 0.457407407407407</pos><!-- 1628 494 -->
-         <size>0.085416666666667 0</size><!-- 164 0 -->
+         <pos>0.913194444444444 0.457407407407407</pos><!-- 1578 494 -->
+         <size>0.094907407407407 0</size><!-- 164 0 -->
       </text>
       <image name="highlighter-color">
          <path>./_inc/images/16-10/system-layer-12-highlighter-color.png</path>
@@ -86,10 +82,6 @@ based on 1728x1080
    ///
    -->
    <view name="gamelist">
-      <image name="cover">
-         <pos>0.928125 0.109259259259259</pos><!-- 1782 118 -->
-         <size>0 0.833333333333333</size><!-- 690 900 -->
-      </image>
       <image name="highlighter-color">
          <path>./_inc/images/16-10/gamelist-layer-2-highlighter-color.png</path>
       </image>
@@ -148,18 +140,18 @@ based on 1728x1080
          <zIndex>12</zIndex>
       </badges>
       <textlist name="list">
-         <pos>0.164583333333333 0.177083333333333</pos><!-- 316 85 -->
-         <size>0.246189917936694 0.604166666666667</size><!-- 472 290 -->
-         <horizontalMargin>0.025791324736225</horizontalMargin><!-- 50 -->
+         <pos>0.153935185185185 0.175925925925926</pos><!-- 266 190 -->
+         <size>0.273148148148148 0.604166666666667</size><!-- 472 652 -->
+         <horizontalMargin>0.028935185185185</horizontalMargin><!-- 50 -->
       </textlist>
       <image name="polaroid-art-off">
-         <pos>0.6703125 0.333333333333333</pos><!-- 1287 160 -->
-         <cropSize>0.304806565064478 0.5625</cropSize><!-- 260 270 -->
+         <pos>0.710069444444444 0.333333333333333</pos><!-- 1227 160 -->
+         <cropSize>0.338541666666667 0.555555555555556</cropSize><!-- 585 600 -->
          <rotation>11</rotation>
       </image>
       <video name="polaroid-art-on">
-         <pos>0.6703125 0.333333333333333</pos><!-- 1287 160 -->
-         <cropSize>0.304806565064478 0.5625</cropSize><!-- 260 270 -->
+         <pos>0.710069444444444 0.333333333333333</pos><!-- 1227 160 -->
+         <cropSize>0.338541666666667 0.555555555555556</cropSize><!-- 585 600 -->
          <rotation>11</rotation>
       </video>
       <image name="polaroid">
@@ -169,8 +161,8 @@ based on 1728x1080
          <path>./_inc/images/16-10/gamelist-layer-18-pen.png</path>
       </image>
       <image name="logo">
-         <pos>0.291666666666667 0.120833333333333</pos><!-- 560 58 -->
-         <maxSize>0.18757327080891 0.045833333333333</maxSize><!-- 360 22 -->
+         <pos>0.295138888888889 0.120833333333333</pos><!-- 510 130 -->
+         <maxSize>0.208333333333333 0.046296296296296</maxSize><!-- 360 50 -->
       </image>
       <image name="logo-distort">
          <path>./_inc/images/16-10/gamelist-layer-20-logo-distort.png</path>
@@ -179,8 +171,8 @@ based on 1728x1080
    <variant name="polaroid-screenshot,polaroid-fanart">
       <view name="gamelist">
          <image name="sticker">
-            <pos>0.698958333333333 0.629166666666667</pos><!-- 1342 302 -->
-            <maxSize>0.199296600234467 0.166666666666667</maxSize><!-- 170 80 -->
+            <pos>0.746527777777778 0.62037037037037</pos><!-- 1290 670 -->
+            <maxSize>0.221064814814815 0.166666666666667</maxSize><!-- 382 180 -->
             <rotation>11</rotation>
          </image>
       </view>

@@ -148,18 +148,18 @@ based on 1920x1080
          <zIndex>12</zIndex>
       </badges>
       <textlist name="list">
-         <pos>0.164583333333333 0.177083333333333</pos><!-- 316 85 -->
-         <size>0.246189917936694 0.604166666666667</size><!-- 472 290 -->
+         <pos>0.164583333333333 0.175925925925926</pos><!-- 316 190 -->
+         <size>0.246189917936694 0.604166666666667</size><!-- 472 652 -->
          <horizontalMargin>0.025791324736225</horizontalMargin><!-- 50 -->
       </textlist>
       <image name="polaroid-art-off">
          <pos>0.6703125 0.333333333333333</pos><!-- 1287 160 -->
-         <cropSize>0.304806565064478 0.5625</cropSize><!-- 260 270 -->
+         <cropSize>0.304806565064478 0.555555555555556</cropSize><!-- 585 600 -->
          <rotation>11</rotation>
       </image>
       <video name="polaroid-art-on">
          <pos>0.6703125 0.333333333333333</pos><!-- 1287 160 -->
-         <cropSize>0.304806565064478 0.5625</cropSize><!-- 260 270 -->
+         <cropSize>0.304806565064478 0.555555555555556</cropSize><!-- 585 600 -->
          <rotation>11</rotation>
       </video>
       <image name="polaroid">
@@ -169,8 +169,8 @@ based on 1920x1080
          <path>./_inc/images/16-9/gamelist-layer-18-pen.png</path>
       </image>
       <image name="logo">
-         <pos>0.291666666666667 0.120833333333333</pos><!-- 560 58 -->
-         <maxSize>0.18757327080891 0.045833333333333</maxSize><!-- 360 22 -->
+         <pos>0.291666666666667 0.120833333333333</pos><!-- 560 130 -->
+         <maxSize>0.18757327080891 0.046296296296296</maxSize><!-- 360 50 -->
       </image>
       <image name="logo-distort">
          <path>./_inc/images/16-9/gamelist-layer-20-logo-distort.png</path>
@@ -179,8 +179,8 @@ based on 1920x1080
    <variant name="polaroid-screenshot,polaroid-fanart">
       <view name="gamelist">
          <image name="sticker">
-            <pos>0.698958333333333 0.629166666666667</pos><!-- 1342 302 -->
-            <maxSize>0.199296600234467 0.166666666666667</maxSize><!-- 170 80 -->
+            <pos>0.698958333333333 0.62037037037037</pos><!-- 1342 670 -->
+            <maxSize>0.199296600234467 0.166666666666667</maxSize><!-- 170 180 -->
             <rotation>11</rotation>
          </image>
       </view>

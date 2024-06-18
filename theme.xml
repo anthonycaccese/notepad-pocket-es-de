@@ -171,7 +171,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <origin>0.5 0.5</origin>
          <systemdata>gamecountGamesNoText</systemdata>
          <fontPath>${postItFontPath}</fontPath>
-         <fontSize>0.05</fontSize>
+         <fontSize>${postItCount}</fontSize>
          <lineSpacing>1</lineSpacing>
          <horizontalAlignment>center</horizontalAlignment>
          <color>000000</color>
@@ -182,7 +182,7 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <origin>0.5 0.5</origin>
          <text>games</text>
          <fontPath>${postItFontPath}</fontPath>
-         <fontSize>0.0375</fontSize>
+         <fontSize>${postItText}</fontSize>
          <lineSpacing>1</lineSpacing>
          <horizontalAlignment>center</horizontalAlignment>
          <color>000000</color>
@@ -408,7 +408,9 @@ https://github.com/anthonycaccese/scrap-book-es-de
       <variables>
          <textlistFontSize>0.041666666666667</textlistFontSize><!-- 20 -->
          <textlistLineSpacing>1.62</textlistLineSpacing>
-         <helpsystemFontSize>0.0375</helpsystemFontSize><!-- 18 -->
+         <helpsystemFontSize>0.033333333333333</helpsystemFontSize><!-- 16 -->
+         <postItCount>0.0375</postItCount><!-- 18 -->
+         <postItText>0.0375</postItText><!-- 18 -->
       </variables>
    </fontSize>
    <fontSize name="medium">
@@ -416,6 +418,8 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <textlistFontSize>0.05</textlistFontSize><!-- 24 -->
          <textlistLineSpacing>1.525</textlistLineSpacing>
          <helpsystemFontSize>0.0375</helpsystemFontSize><!-- 18 -->
+         <postItCount>0.0375</postItCount><!-- 18 -->
+         <postItText>0.0375</postItText><!-- 18 -->
       </variables>
    </fontSize>
    <fontSize name="large">
@@ -423,6 +427,8 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <textlistFontSize>0.058333333333333</textlistFontSize><!-- 28 -->
          <textlistLineSpacing>1.47</textlistLineSpacing>
          <helpsystemFontSize>0.0375</helpsystemFontSize><!-- 18 -->
+         <postItCount>0.0375</postItCount><!-- 18 -->
+         <postItText>0.0375</postItText><!-- 18 -->
       </variables>
    </fontSize>
 
