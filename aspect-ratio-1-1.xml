@@ -16,6 +16,9 @@ based on 1080x1080
       <image name="paper">
          <path>./_inc/images/1-1/all-layer-2-paper.png</path>
       </image>
+      <image name="disks">
+         <path>./_inc/images/1-1/all-layer-3-disks.png</path>
+      </image>
       <image name="paper-clips">
          <path>./_inc/images/1-1/all-layer-4-paper-clips.png</path>
       </image>
