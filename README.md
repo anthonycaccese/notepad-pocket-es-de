@@ -57,7 +57,7 @@ The theme has a simple set of options that can be changed directly from the UI S
 | <img src="https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/7269eb3b-295e-4d63-a452-8dec2e8843c3">| <img src="https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/804e5d1d-8d73-4e9c-b558-357ecf05a6c1"> | <img src="https://github.com/anthonycaccese/notepad-pocket-es-de/assets/1454947/356148d8-bb0a-40b3-b3f8-4d3cb6d2eb47"> |
 
 ## **Credits**
-* The layout and design was created by Zoidburg
+* Layout and designs for all views created by Zoidburg
 * Ink Free font is from [Microsoft](https://learn.microsoft.com/en-us/typography/font-list/ink-free)
 * Antro Vectra font is by [Youssef Habchi](https://www.dafont.com/antro-vectra.font)
 * Badge Icons sourced from [FontAwesome](https://fontawesome.com/search?o=r&m=free)
