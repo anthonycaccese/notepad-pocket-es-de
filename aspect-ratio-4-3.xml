@@ -106,6 +106,42 @@ based on 1440x1080
       <image name="polaroid">
          <path>./_inc/images/4-3/gamelist-layer-15-polaroid.png</path>
       </image>
+      <!--<badges name="tab-yellow-on">
+         <size>1 1</size>
+         <lines>1</lines>
+         <itemsPerLine>1</itemsPerLine>
+         <slots>favorite</slots>
+         <itemMargin>0 0</itemMargin>
+         <customBadgeIcon badge="favorite">./_inc/images/4-3/gamelist-layer-6-tab-yellow-on.png</customBadgeIcon>
+         <zIndex>16</zIndex>
+      </badges>
+      <badges name="tab-blue-on">
+         <size>1 1</size>
+         <lines>1</lines>
+         <itemsPerLine>1</itemsPerLine>
+         <slots>altemulator</slots>
+         <itemMargin>0 0</itemMargin>
+         <customBadgeIcon badge="altemulator">./_inc/images/4-3/gamelist-layer-8-tab-blue-on.png</customBadgeIcon>
+         <zIndex>16</zIndex>
+      </badges>
+      <badges name="tab-green-on">
+         <size>1 1</size>
+         <lines>1</lines>
+         <itemsPerLine>1</itemsPerLine>
+         <slots>completed</slots>
+         <itemMargin>0 0</itemMargin>
+         <customBadgeIcon badge="completed">./_inc/images/4-3/gamelist-layer-10-tab-green-on.png</customBadgeIcon>
+         <zIndex>16</zIndex>
+      </badges>
+      <badges name="tab-red-on">
+         <size>1 1</size>
+         <lines>1</lines>
+         <itemsPerLine>1</itemsPerLine>
+         <slots>broken</slots>
+         <itemMargin>0 0</itemMargin>
+         <customBadgeIcon badge="broken">./_inc/images/4-3/gamelist-layer-12-tab-red-on.png</customBadgeIcon>
+         <zIndex>16</zIndex>
+      </badges>-->
       <image name="pen">
          <path>./_inc/images/4-3/gamelist-layer-18-pen.png</path>
       </image>
