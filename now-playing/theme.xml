@@ -1,1 +1,8 @@
-<theme><include>./../theme.xml</include></theme>
+<theme>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <gameselector name="system-artwork">
+         <selection>lastplayed</selection>
+      </gameselector>
+   </view>
+</theme>
