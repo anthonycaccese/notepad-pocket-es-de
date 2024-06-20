@@ -26,4 +26,13 @@
          <helpsystemTextColor>000000aa</helpsystemTextColor>
       </variables>
    </colorScheme>
+   <colorScheme name="cutting-mat">
+      <variables>
+         <tableImageColor>cutting-mat</tableImageColor>
+         <textlistSelectorColor>3aafdc</textlistSelectorColor>
+         <highlighterColor>3aafdc</highlighterColor>
+         <helpsystemIconColor>00000088</helpsystemIconColor>
+         <helpsystemTextColor>000000aa</helpsystemTextColor>
+      </variables>
+   </colorScheme>
 </theme>

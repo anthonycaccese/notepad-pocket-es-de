@@ -36,6 +36,9 @@
    <colorScheme name="purple">
       <label>Purple</label>
    </colorScheme>
+   <colorScheme name="cutting-mat">
+      <label>Cutting Mat</label>
+   </colorScheme>
 
    <!--
    ///
