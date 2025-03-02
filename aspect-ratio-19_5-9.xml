@@ -25,9 +25,11 @@ based on 2340x1080
       <image name="push-pins">
          <path>./_inc/images/19_5-9/all-layer-5-push-pins.png</path>
       </image>
+      <helpsystem name="help,help-menu-view">
+         <entrySpacing>0.01</entrySpacing>
+      </helpsystem>
       <helpsystem name="help">
-         <pos>0.4 0.93</pos>
-         <posDimmed>0.5 0.93</posDimmed>
+         <pos>0.34 0.925</pos>
       </helpsystem>
    </view>
 
@@ -82,7 +84,25 @@ based on 2340x1080
       <image name="highlighter">
          <path>./_inc/images/19_5-9/system-layer-13-highlighter.png</path>
       </image>
+      <helpsystem name="help">
+         <entries>${helpsystemSystemEntries}</entries>
+      </helpsystem>
    </view>
+   <fontSize name="small">
+      <variables>
+         <helpsystemSystemEntries>start,a,x,left/right</helpsystemSystemEntries>
+      </variables>
+   </fontSize>
+   <fontSize name="medium">
+      <variables>
+         <helpsystemSystemEntries>start,a,x,left/right</helpsystemSystemEntries>
+      </variables>
+   </fontSize>
+   <fontSize name="large">
+      <variables>
+         <helpsystemSystemEntries>start,a,x,left/right</helpsystemSystemEntries>
+      </variables>
+   </fontSize>
 
    <!--
    ///
@@ -179,6 +199,9 @@ based on 2340x1080
       <image name="logo-distort">
          <path>./_inc/images/19_5-9/gamelist-layer-20-logo-distort.png</path>
       </image>
+      <helpsystem name="help">
+         <entries>${helpsystemGamelistEntries}</entries>
+      </helpsystem>
    </view>
    <variant name="polaroid-screenshot,polaroid-fanart">
       <view name="gamelist">
@@ -189,4 +212,19 @@ based on 2340x1080
          </image>
       </view>
    </variant>
+   <fontSize name="small">
+      <variables>
+         <helpsystemGamelistEntries>back,start,a,x,y</helpsystemGamelistEntries>
+      </variables>
+   </fontSize>
+   <fontSize name="medium">
+      <variables>
+         <helpsystemGamelistEntries>back,start,a,x</helpsystemGamelistEntries>
+      </variables>
+   </fontSize>
+   <fontSize name="large">
+      <variables>
+         <helpsystemGamelistEntries>back,start,a,x</helpsystemGamelistEntries>
+      </variables>
+   </fontSize>
 </theme>

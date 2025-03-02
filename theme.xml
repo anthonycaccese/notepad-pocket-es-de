@@ -26,6 +26,28 @@ https://github.com/anthonycaccese/scrap-book-es-de
    ///
    -->
    <view name="system,gamelist">
+      <clock name="
+         clock
+         ">
+         <opacity>0</opacity>
+      </clock>
+      <systemstatus name="
+         system-status
+         ">
+         <origin>1 0</origin>
+         <pos>0.99 0.0125</pos>
+         <backgroundPadding>0.02 0.025</backgroundPadding>
+         <textRelativeScale>0.75</textRelativeScale>
+         <backgroundColor>1F2226ee</backgroundColor>
+         <customIcon icon="icon_bluetooth">./_inc/images/icon-bluetooth.svg</customIcon>
+         <customIcon icon="icon_wifi">./_inc/images/icon-wifi.svg</customIcon>
+         <customIcon icon="icon_cellular">./_inc/images/icon-cellular.svg</customIcon>
+         <customIcon icon="icon_battery_charging">./_inc/images/icon-battery-charging.svg</customIcon>
+         <customIcon icon="icon_battery_full">./_inc/images/icon-battery-full.svg</customIcon>
+         <customIcon icon="icon_battery_high">./_inc/images/icon-battery-high.svg</customIcon>
+         <customIcon icon="icon_battery_medium">./_inc/images/icon-battery-medium.svg</customIcon>
+         <customIcon icon="icon_battery_low">./_inc/images/icon-battery-low.svg</customIcon>
+      </systemstatus>
       <image name="table">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -70,14 +92,22 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <interpolation>linear</interpolation>
          <zIndex>5</zIndex>
       </image>
-      <helpsystem name="help">
+      <helpsystem name="help,help-menu-view">
          <origin>0.5 0.5</origin>
-         <pos>0.5 0.93</pos>
          <fontPath>${helpsystemFontPath}</fontPath>
          <fontSize>${helpsystemFontSize}</fontSize>
          <letterCase>capitalize</letterCase>
          <iconColor>${helpsystemIconColor}</iconColor>
          <textColor>${helpsystemTextColor}</textColor>
+         <entrySpacing>0.02</entrySpacing>
+      </helpsystem>
+      <helpsystem name="help">
+         <rotation>-2.9</rotation>
+         <scope>view</scope>
+      </helpsystem>
+      <helpsystem name="help-menu-view">
+         <pos>0.5 0.95</pos>
+         <scope>menu</scope>
       </helpsystem>
    </view>
 

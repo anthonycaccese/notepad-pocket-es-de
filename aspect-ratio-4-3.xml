@@ -22,6 +22,12 @@ based on 1440x1080
       <image name="paper-clips">
          <path>./_inc/images/4-3/all-layer-4-paper-clips.png</path>
       </image>
+      <helpsystem name="help,help-menu-view">
+         <entrySpacing>0.02</entrySpacing>
+      </helpsystem>
+      <helpsystem name="help">
+         <pos>0.415 0.925</pos>
+      </helpsystem>
    </view>
 
    <!--
@@ -65,7 +71,25 @@ based on 1440x1080
          <pos>0.944444444444444 0.457407407407407</pos><!-- 1360 494 -->
          <size>0.113888888888889 0</size><!-- 164 0 -->
       </text>
+      <helpsystem name="help">
+         <entries>${helpsystemSystemEntries}</entries>
+      </helpsystem>
    </view>
+   <fontSize name="small">
+      <variables>
+         <helpsystemSystemEntries>start,a,x,left/right</helpsystemSystemEntries>
+      </variables>
+   </fontSize>
+   <fontSize name="medium">
+      <variables>
+         <helpsystemSystemEntries>start,a,x,left/right</helpsystemSystemEntries>
+      </variables>
+   </fontSize>
+   <fontSize name="large">
+      <variables>
+         <helpsystemSystemEntries>start,a,x,left/right</helpsystemSystemEntries>
+      </variables>
+   </fontSize>
 
    <!--
    ///
@@ -106,42 +130,6 @@ based on 1440x1080
       <image name="polaroid">
          <path>./_inc/images/4-3/gamelist-layer-15-polaroid.png</path>
       </image>
-      <!--<badges name="tab-yellow-on">
-         <size>1 1</size>
-         <lines>1</lines>
-         <itemsPerLine>1</itemsPerLine>
-         <slots>favorite</slots>
-         <itemMargin>0 0</itemMargin>
-         <customBadgeIcon badge="favorite">./_inc/images/4-3/gamelist-layer-6-tab-yellow-on.png</customBadgeIcon>
-         <zIndex>16</zIndex>
-      </badges>
-      <badges name="tab-blue-on">
-         <size>1 1</size>
-         <lines>1</lines>
-         <itemsPerLine>1</itemsPerLine>
-         <slots>altemulator</slots>
-         <itemMargin>0 0</itemMargin>
-         <customBadgeIcon badge="altemulator">./_inc/images/4-3/gamelist-layer-8-tab-blue-on.png</customBadgeIcon>
-         <zIndex>16</zIndex>
-      </badges>
-      <badges name="tab-green-on">
-         <size>1 1</size>
-         <lines>1</lines>
-         <itemsPerLine>1</itemsPerLine>
-         <slots>completed</slots>
-         <itemMargin>0 0</itemMargin>
-         <customBadgeIcon badge="completed">./_inc/images/4-3/gamelist-layer-10-tab-green-on.png</customBadgeIcon>
-         <zIndex>16</zIndex>
-      </badges>
-      <badges name="tab-red-on">
-         <size>1 1</size>
-         <lines>1</lines>
-         <itemsPerLine>1</itemsPerLine>
-         <slots>broken</slots>
-         <itemMargin>0 0</itemMargin>
-         <customBadgeIcon badge="broken">./_inc/images/4-3/gamelist-layer-12-tab-red-on.png</customBadgeIcon>
-         <zIndex>16</zIndex>
-      </badges>-->
       <image name="pen">
          <path>./_inc/images/4-3/gamelist-layer-18-pen.png</path>
       </image>
@@ -152,6 +140,9 @@ based on 1440x1080
       <image name="logo-distort">
          <path>./_inc/images/4-3/gamelist-layer-20-logo-distort.png</path>
       </image>
+      <helpsystem name="help">
+         <entries>${helpsystemGamelistEntries}</entries>
+      </helpsystem>
    </view>
    <variant name="polaroid-screenshot,polaroid-fanart">
       <view name="gamelist">
@@ -162,4 +153,19 @@ based on 1440x1080
          </image>
       </view>
    </variant>
+   <fontSize name="small">
+      <variables>
+         <helpsystemGamelistEntries>back,start,a,x</helpsystemGamelistEntries>
+      </variables>
+   </fontSize>
+   <fontSize name="medium">
+      <variables>
+         <helpsystemGamelistEntries>back,start,a,x</helpsystemGamelistEntries>
+      </variables>
+   </fontSize>
+   <fontSize name="large">
+      <variables>
+         <helpsystemGamelistEntries>back,start,a,x</helpsystemGamelistEntries>
+      </variables>
+   </fontSize>
 </theme>
