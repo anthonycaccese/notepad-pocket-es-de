@@ -92,7 +92,8 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <interpolation>linear</interpolation>
          <zIndex>5</zIndex>
       </image>
-      <helpsystem name="help,help-menu-view">
+      <helpsystem name="help">
+         <scope>view</scope>
          <origin>0.5 0.5</origin>
          <fontPath>${helpsystemFontPath}</fontPath>
          <fontSize>${helpsystemFontSize}</fontSize>
@@ -100,14 +101,17 @@ https://github.com/anthonycaccese/scrap-book-es-de
          <iconColor>${helpsystemIconColor}</iconColor>
          <textColor>${helpsystemTextColor}</textColor>
          <entrySpacing>0.02</entrySpacing>
-      </helpsystem>
-      <helpsystem name="help">
          <rotation>-2.9</rotation>
-         <scope>view</scope>
       </helpsystem>
       <helpsystem name="help-menu-view">
-         <pos>0.5 0.95</pos>
          <scope>menu</scope>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.95</pos>
+         <iconColor>cccccc</iconColor>
+         <textColor>cccccc</textColor>
+         <backgroundColor>181818</backgroundColor>
+         <backgroundPadding>0.1 0.1</backgroundPadding>
+         <backgroundCornerRadius>0.005</backgroundCornerRadius>
       </helpsystem>
    </view>
 
